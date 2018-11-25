@@ -1,0 +1,110 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <div id="main">
+       <h1 id="title">Meryl Streep</h1>
+     <div id="img-div">
+<img src=" https://i.pinimg.com/originals/9d/3c/90/9d3c908bba20eeb40010c9d0ca862df3.jpg" alt="Meryl Streep" id="image">
+          <div id="img-caption"><strong>Meryl Streep has been nominated for more Oscars than any other actress or actor since the Academy Awards began.</strong></div>
+    </div>
+    <div id="tribute-info">
+      <p description="facts about Meryl Streep"></p>
+      <p id="timeline of Meryl Streep's life"</p>
+   <ul>
+    <li><strong>1949</strong> - Meryl is born as Mary Louise Streep in Summit, New Jersey</li>
+    <li><strong>1967</strong> - Meryl graduates from high school and commences her studies at the private college, Vassar College, where two of her children would later study.</li>
+     <img id="young_meryl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlCdr4XWDEntjZrj5UtleFOHv0CuR-aU1GsfHJEmXxsvanYWxfUQ" alt="Meryl Streep as she was during her High School years - absolute babe!" width="100px" height="100px">
+    <li><strong>1971</strong> - Meryl graduates, from Vassar College, having given a formidable performance as Miss Julie in August Strindberg's play of the same name, 'Miss Julie'. At this point she is unsure as to which career to pursue</li>
+    <li><strong>1972</strong> - Having spent a year doing theatre, Meryl enrolls at the prestigious Yale University, to study for a Masters Degree in Drama</li>
+    <li><strong>1975</strong> - Meryl graduates from Drama School at the age of 26.</li>
+    <li><strong>1978</strong> - Meryl suffers a personal tragedy; the death of her lover, the actor John Cazale. Six months later Meryl marries a friend of her brother, called Don Gummer</li>
+    <li><strong>1979</strong> - She gives birth to their first child, Henry, and plays Joanna Kramer in 'Kramer vs Kramer.'</li>
+    <li><strong>1980</strong> -Wins an Academy Award for Best Supporting Actress for her role as Joanna Kramer.</li>
+    <li><strong>1983</strong> - 1983 is a big year for Meryl as she welcomes her second child, Mamie and wins the Academy Award for her role in Sophie's Choice.</li>
+    <li><strong>1986</strong> - Grace Gummer, Meryl's third child and second daughter is born.</li>
+    <li><strong>1991</strong> -Meryl gives birth to her fourth child, Louisa. (Louisa is now following in her mother's footsteps; studying drama at the Yale School of Drama.</li>
+    <li><strong>2012</strong> - Meryl wins the Oscar for her role as Margaret Thatcher in the British film, 'The Iron Lady'.
+    </li>
+    
+    <br>
+     <img src="https://static1.squarespace.com/static/55f45174e4b0fb5d95b07f39/55f45539e4b09d46d484768a/55f45583e4b09d46d48670e8/1325600586403/1000w/Meryl-streep-family-12-5-11-.jpg" alt="Meryl and her family, without her son Henry">Meryl, her husband Don and her three daughters - Mamie, Grace and Louisa. Not pictured- Henry.
+     <br>
+     <br>
+     <br>
+    
+    <q id="Meryl quote"><em>Acting is not about being someone different. It’s finding the similarity in what is apparently different, then finding myself in there.</em></q>
+    
+    <br>
+    <h4>-- Meryl Streep on her art</h4>
+    
+    <h2>Read more about Meryl's life and her work on the fantastic <a href="http://www.simplystreep.com/" id="tribute-link" target="_blank"</a> Simply Streep Website.</h2>
+    </div>
+    </div>
+    
+      
+
+@import url('https://fonts.googleapis.com/css?family=Domine:400,700');
+
+body {
+    background: linear-gradient(55deg, #ed65f2, #a6e9ea);
+    font-family: 'Times New Roman', serif;
+}
+
+#main {
+    margin: auto;
+    width: 85%;
+}
+  
+ #title, #img-caption {
+    text-align: center;
+  }
+  
+  img {
+    margin: auto;
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+img {
+    border: 10px solid #ccc;
+    border-radius: 30px;
+    padding: 10px;
+    width: 300px;
+}
+
+#young_meryl {
+   border: 10px solid #ccc;
+    border-radius: 30px;
+    float: right;
+    margin:6px;
+    padding: 10px;
+    width: 100px;
+  
+}
+
+#tribute-info {
+    margin: 5px auto;
+    width: 85%;
+    font-size: 16px;
+}
+
+#Meryl quote {
+  margin: 5px auto;
+  width: 100%;
+  font-size: 14px;
+}
+
+h4 {
+text-align:center;
+}
+
+ul {
+    list-style: none;
+    padding: 5px 0;    
+}
+
+li {
+    margin: 15px auto;
+}
+
+
